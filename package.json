@@ -1,0 +1,24 @@
+{
+  "name": "a02-naomi04",
+  "version": "1.0.0",
+  "description": "creating command line application program",
+  "main": "index.js",
+  "scripts": {
+    "test": "node cli.js -n 35.92 -w 79.05 -z America/New_York"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2022-fall/a02-naomi04.git"
+  },
+  "author": "naomi04",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/comp426-2022-fall/a02-naomi04/issues"
+  },
+  "homepage": "https://github.com/comp426-2022-fall/a02-naomi04#readme",
+  "dependencies": {
+    "minimist": "^1.2.6",
+    "moment-timezone": "^0.5.37",
+    "node-fetch": "^3.2.10"
+  }
+}
