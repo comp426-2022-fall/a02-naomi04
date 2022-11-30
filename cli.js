@@ -10,7 +10,7 @@ import { exit } from 'process';
 //const timezone = moment.tz.guest();
 // Require minimist module (make sure you install this one via npm).
 const args = minimist(process.argv.slice(2));
-console.log(args);
+//console.log(args);
 
 //default action
 if( args.h ) {
