@@ -23,7 +23,7 @@ if( args.h ) {
   -j            Echo pretty JSON from open-meteo API and exit.`)
   exit(0);
 }
-
+//default coordinates unless specified
 var latitude = 35.92;
 if (args.n) {
     latitude = args.n;
@@ -67,12 +67,12 @@ if (data.daily.precipitation_hours[days] != 0) {
 }
 
 if (days == 0) {
-    console.log('today.');
-} else if (days == 1) {
-    console.log('tomorrow.');
-} else {
-    console.log('in ' + days + ' days.');
-}
+    console.log("today.")
+  } else if (days > 1) {
+    console.log("in " + days + " days.")
+  } else {
+    console.log("tomorrow.")
+  }
 
 exit(0);
 
