@@ -56,7 +56,7 @@ if( args.j ){
 
 var days = 1;
 
-if (args.d) {
+if (args.d != null) {
     days = args.d;
 }
 
